@@ -2,7 +2,7 @@ import React from "react";
 import data from "./data";
 import "./index.css";
 
-const App=()=> {
+conrst App=()=> {
   return (
     <div className="App">
       <h1>Image Gallery</h1>
