@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
- 
-          box-sizing: border-box;
+
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(61, 180, 189);
 }
 
 a {
@@ -18,57 +19,61 @@ ul {
   list-style-type: none;
 }
 
-
-
 h1 {
   margin: 10px;
   text-align: center;
-  color: blue;
+  color: rgb(5, 62, 71);
 }
 
 .pictures {
- 
-  display: -ms-flexbox;
   display: flex;
- 
-      flex-wrap: wrap;
-  
-          justify-content: center;
-  
-          align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .pictures .picture {
   font-size: 1.2rem;
   padding: 1rem;
-  width: 300px;
+  width: 400px;
 }
 
 .pictures .picture .imageContainer {
   overflow: hidden;
   height: 40vh;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px black;
 }
 
 .pictures .picture .imageContainer img {
   width: 100%;
   height: 100%;
-  
-     object-fit: cover;
-  
+
+  object-fit: cover;
+
   transition: all 0.3s ease;
 }
 
 .pictures .picture .imageContainer img:hover {
- 
-          transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .pictures .picture .info {
- 
   display: flex;
- 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
   padding: 0.5rem;
+}
+footer{
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  color:rgb(95, 94, 94);
 }

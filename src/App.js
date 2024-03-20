@@ -18,6 +18,10 @@ const App=()=> {
           </div>
         ))}
       </div>
+      <footer><div>Designed by CZ, 2024</div>
+      <div>CODEVELOPERS®</div>
+
+      </footer>
     </div>
   );
 }
